@@ -1,7 +1,7 @@
 {
-  "name": "kotofey-backend",
+  "name": "bb-ts-node-template-backend",
   "version": "0.0.0",
-  "description": "kotofey backend",
+  "description": "bb-ts-node-template-backend",
   "main": "dist/index.js",
   "scripts": {
     "clear": "rm -r dist",
@@ -12,9 +12,6 @@
   },
   "author": "blindlybright",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "ts-node": "^10.9.2",
