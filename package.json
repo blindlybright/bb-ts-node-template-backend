@@ -1,0 +1,23 @@
+{
+  "name": "kotofey-backend",
+  "version": "0.0.0",
+  "description": "kotofey backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "clear": "rm -r dist",
+    "build": "npx tsc --outDir dist/",
+    "dev": "npx tsx watch src/index.ts",
+    "cl": "echo \"Command line dialog\" && npx tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blindlybright",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
