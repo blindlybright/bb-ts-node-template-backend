@@ -7,7 +7,6 @@
     "clear": "rm -r dist",
     "build": "npx tsc --outDir dist/",
     "dev": "npx tsx watch src/index.ts",
-    "cl": "echo \"Command line dialog\" && npx tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "blindlybright",
